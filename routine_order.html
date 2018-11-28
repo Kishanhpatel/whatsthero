@@ -6,28 +6,53 @@ span.a {
     display: block; /* the default for span */
     width: 600px;
     height: 100px;
-    
+    line-height: 100px;
     padding: 3px;
     border: 1px solid black;    
-    background-color: #7194da
+    background-color: #7194da;
+    text-align: center;
 }
+
 
 span.b {
     display: inline-block;
     width: 150px;
     height: 100px;
     padding: 0px;
+    line-height: 100px;
     border: 1px solid black; 
     background-color: #ffff66;  
+    text-align: center
 }
 
-span.c {
+span.c {  
     display: block;
     width: 600px;
     height: 100px;
+    line-height: 100px;
     padding: 3px;
     border: 1px solid black;        
     background-color: #ffff66; 
+    text-align: center
+    
+}
+
+span.a p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.b p {
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.c p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 } 
@@ -39,19 +64,20 @@ span.c {
 
 
 <h2>Today</h2>
- <div><span class="c"><center>Aliquam</center></span>
+ <div><span class="c">Aliquam</span>
 
 
 <!-- days till blocks-->
-<span class="b" ><center>2019</br>(184)</br>Hundreds Weekend</br>84</center></span><span class="b" style="background-color: #7194da"><center>2020</br>(550)</br>Ring Dance</br>178</center></span><span class="b"  style="background-color: #A9A9A9;"><center>2021</br>(914)</br>Commitment</br>254</center></span><span class="b"  style="background-color:#ff4d4d"><center>2022</br>(∞)</br>Recognition</br>100</center></span> 
+<span class="b" ><p>2019</br>(184)</br>Hundreds Weekend</br>84</p></span><span class="b" style="background-color: #7194da"><p>2020</br>(550)</br>Ring Dance</br>178</p></span><span class="b"  style="background-color: #A9A9A9;"><p>2021</br>(914)</br>Commitment</br>254</p></span><span class="b"  style="background-color:#ff4d4d"><p>2022</br>(∞)</br>Recognition</br>100</p></span> 
 
 <!-- Events of the day -->
-<span class="a"><center>Alpha Flight MOD 0630-0655</br>hi</center></span>
-<span class="a"><center>Lunch</center></span>
-<span class="c"><center>Dinner</center></span>
-<span class="a"><center>MCQ</center></span>
+<span class="a"><p>Alpha Flight MOD 0630-0655</br>hi</p></span>
+<span class="a">Lunch</span>
+<span class="c">Dinner</span>
+<span class="a">MCQ</span>
 </div> 
 
 
 </body>
 </html>
+
